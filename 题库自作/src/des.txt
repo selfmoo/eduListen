@@ -1,0 +1,10 @@
+//≤‚ ‘//
+///////////////////////////////////////////////////////////////////////////////
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+//¥Û–°–¥
+//showmessage(Unit2.HexToStr('83af8c3f5507e100b182f90f5f5d834b94ef769c040b1b65'));
+//showmessage(Unit2.des('this is a 24 byte key !!','This is a test message',1,0,''));
+Edit1.Text := Unit2.StrToHex(Unit2.des('this is a 24 byte key !!','This is a test message',1,0,''));
+end;
+///////////////////////////////////////////////////////////////////////////////
